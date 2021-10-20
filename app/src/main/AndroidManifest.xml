@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.daffakhairi.dzikirapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DzikirApp">
+        <activity
+            android:name=".DzikirPetangActivity"
+            android:exported="true"
+            android:theme="@style/PetangActivity"/>
+        <activity
+            android:name=".DzikirPagiActivity"
+            android:exported="true"
+            android:theme="@style/PagiActivity"/>
+        <activity
+            android:name=".DetailArtikelActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PagiPetangDzikirActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".HarianDzikirDoaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SetiapSaatDzikirActivity"
+            android:exported="true" />
+        <activity
+            android:name=".QauliyahShalatActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.DoaDzikirApp.NoActionBar"/>
+    </application>
+
+</manifest>
